@@ -1,24 +1,223 @@
 :root {
-    --primary-brand: #4D5AE5;
-    --pressed-state: #404BBF;
-    --dark: #2E2F42;
-    --success: #31D0AA;
-    --text: #434455;
-    --subtle-text: #8E8F99;
-    --accent: #E7E9FC;
-    --light: #F4F4FD;
-    --modal-overlay: #2E2F42;
-    --hero-background: #2E2F42;
-    --white-background: #FFFFFF;
-    --modal-background: #FCFCFC;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
 }
 
 body{
     font-family: "Roboto", sans-serif;
-    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate);
+    background-color: var(--white);
+}
+section{
+    color: var(--navy-blue);
 }
 
-header {
-    background-color: var(--white-background);
+/* HEADER */
+.header {
+    background-color: var(--white);
+    color: var(--navy-blue);
 }
 
+.header-nav {
+    font-weight: 500;
+}
+
+.logo-link {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+}
+.logo-blue{
+    color: var(--iris);
+}
+.logo-navy{
+    color: var(--navy-blue);
+}
+
+.header-list {
+    list-style-type: none;
+}
+
+.header-link {
+    text-decoration: none;
+    color: var(--navy-blue);
+}
+
+.address {
+    font-weight: 400;
+    color: var(--slate);
+}
+
+.address-list {
+    list-style-type: none;
+    color: var(--slate);
+}
+
+.address-link {
+    text-decoration: none;
+    color: var(--slate);
+}
+
+/*MAIN PART*/
+
+/*SECTION HERO*/
+
+.section-hero{
+    background-color: var(--navy-blue);
+    color: var(--white);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-button {
+    cursor: pointer;
+    background-color: var(--iris);
+    text-align: center;
+}
+
+/*SECTION BENEFITS*/
+
+.section-benefits{}
+
+.benefits-title {
+    display: none;
+}
+
+.benefits-list {
+    list-style-type: none;
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.benefits-title-list {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/*SECTION WHAT WE ARE DOING*/
+
+.section-doing{}
+
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--navy-blue);
+    text-align: center;
+}
+
+.doing-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+/*OUR TEAM*/
+
+.section-team{
+    background-color: var(--cloud);
+    color: var(--slate);
+}
+
+.team-title{
+    color: var(--navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.team-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+}
+
+.team-block-list{
+    background-color: var(--white);
+    
+}
+
+.team-list-title{}
+
+/*FOOTER*/
+
+.footer{
+    background-color: var(--navy-blue);
+    color: var(--cloud);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+.logo-white{
+    color: var(--cloud);
+}
+
+/*PORTFOLIO*/
+
+.main-portfolio{
+    color: var(--slate);
+}
+
+.button-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.button{
+    background-color: var(--cloud);
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
+}
+.button:focus {
+    borber: 0px;
+    background-color: var(--ocean);
+}
+
+.list-all{
+    list-style-type: none;
+}
+.list-all-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-blue);
+}
+
+.list-stroke{
+    list-style-type: none;
+}
